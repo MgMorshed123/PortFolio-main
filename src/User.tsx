@@ -1,150 +1,256 @@
-import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+import {
+  IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandLeetcode,
+  IconBrandLinkedin,
+  IconBrandYoutube,
+} from "@tabler/icons-react";
+import imag1 from "./img/img1.png";
+import imag2 from "./img/img2.png";
+import img3 from "./img/img3.png";
+import imag4 from "./img/img4.png";
+import imag5 from "./img/FoodWeb.png";
 const Info = {
-    name: "Chandrabhan Maurya",
-    stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
-    bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
-}
-
-
+  name: "Golam Morshed",
+  stack: [
+    "MERN Stack Developer ",
+    "Full Stack Developer",
+    "Problem Solver ",
+    "Software Engineer ",
+  ],
+  bio: "I am a passionate MERN stack developer and full-stack developer with a strong drive to create scalable, high-performing applications. With expertise in crafting seamless front-end experiences and robust back-end solutions, I specialize in building end-to-end solutions that deliver both functionality and scalability. I enjoy tackling complex challenges, optimizing performance, and contributing to impactful projects that make a difference.!",
+};
 
 const ProjectInfo = [
-    {
-        title: "Ekart E-comm App",
-        desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
-        image: "Ekart.png",
-        live: true,
-        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-        link: "https://code-mars.github.io/Ekart/",
-        github: "https://github.com/Code-Mars/Ekart/"
+  {
+    title: "Career Canvas",
+    credentials: {
+      normalUser: {
+        email: "mdarfinji45@gmail.com",
+        password: "123456",
+      },
+      adminUser: {
+        email: "smart@gmail.com",
+        password: "1234567",
+      },
     },
-    {
-        title: "Facebook Clone",
-        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Facebook.png",
-        live: false,
-        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://github.com/Code-Mars/Facebook-Clone",
-        github: "https://github.com/Code-Mars/Facebook-Clone"
+    desc: "Career Canvas is engineered to provide an intuitive and efficient user experience for job seekers and recruiters alike. Our platform leverages modern technologies to deliver robust functionality, ensuring that users can easily navigate job listings, apply for positions, and manage their profiles while administrators can effortlessly manage job postings, company registrations, and application statuses.",
+    image: imag1,
+    live: true,
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "SchadCn",
+      "Framer Motion",
+      "Cloudinary",
+      "JWT",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+    ],
+    features: {
+      normalUsers: [
+        "View Jobs: Browse through a variety of job opportunities available on the platform.",
+        "Apply for Jobs: Submit applications for jobs that match your skills and interests.",
+        "Search Jobs: Utilize the advanced search functionality to find specific job listings.",
+        "Update Profile: Manage and update your personal profile information.",
+      ],
+      administrators: [
+        "Create Jobs: Add new job postings to the platform with detailed descriptions.",
+        "Create Companies: Register and manage companies on the portal.",
+        "View Applications: Access and review job applications submitted by users.",
+        "Update Application Status: Change the status of job applications as needed.",
+      ],
+      additional: [
+        "Authentication: Secure user authentication, ensuring safe sign-in/out and session management.",
+        "Data Management: Ensure data is kept updated throughout the user session.",
+        "Responsive Design: Optimized for a seamless experience across all devices.",
+      ],
     },
-    {
-        title: "Spotify Clone",
-        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Spotify.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
+    link: "https://job-9.onrender.com",
+    github: "https://github.com/MgMorshed123/ClientCarrer",
+    server: "https://github.com/MgMorshed123/CarrerCanvasBackend",
+  },
+  {
+    title: "Zomato ",
+    live: true,
+    credentials: {
+      normalUser: {
+        email: "mdarfinji45@gmail",
+        password: "12345678",
+      },
+      adminUser: {
+        email: " smart@gmail.com",
+        password: "12345678",
+      },
     },
-    {
-        title: "Travel Tracker",
-        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
-        image: "Travel.png",
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://github.com/Code-Mars/Travel-Tracker",
-        github: "https://github.com/Code-Mars/Travel-Tracker"
-    },
-    {
-        title: "Instagram Clone",
-        desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "Instagram.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://github.com/Code-Mars/Instagram-Clone",
-        github: "https://github.com/Code-Mars/Instagram-Clone"
-    },
-    {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "CodeX.png",
-        live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "https://github.com/Code-Mars/CodeX",
-        github: "https://github.com/Code-Mars/CodeX"
-    }
-]
-
+    desc: "Zoomato is a dynamic food ordering website tailored to cater to both customers and administrators, ensuring a smooth and engaging experience. For customers, it offers features like adding items to the cart, secure checkout, searching for products, and tracking orders with real-time status updates. Administrators can effortlessly manage the platform by adding new products, deleting outdated items, managing orders, and updating order statuses to keep customers informed. With its intuitive design and comprehensive functionality, Zoomato makes food ordering and management simpler, faster, and more efficient for everyone",
+    image: img3,
+    technologies: [
+      "React",
+      "React Router DOM",
+      "Tailwind css",
+      "Framer Motion ",
+      "CSS",
+      "Node",
+      " Express",
+      " Mongoose ",
+      "  MongoDb",
+      "Jwt ",
+    ],
+    link: "https://zomato-1-uz5r.onrender.com",
+    github: "https://github.com/MgMorshed123/TastyTales",
+    server: "https://github.com/MgMorshed123/TastyTales-Backend",
+  },
+  {
+    title: "Food Hub",
+    desc: "Food Hub is a comprehensive food ordering platform for both users and administrators. Users can explore restaurants, sort by menu offerings, view detailed menus, place orders, make secure payments via Stripe, track order and payment statuses, and review their order history. Administrators can manage restaurant menus, update food availability, and oversee all orders efficiently. With its intuitive interface and robust features, Food Hub ensures a seamless experience for users and streamlined operations for administrators.",
+    image: imag5,
+    live: true,
+    technologies: [
+      "React",
+      "Typescript",
+      "Tailwind",
+      "ShadCn",
+      "Zustand",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Multer",
+      "JWT",
+    ],
+    link: "https://foodie-v4qd.onrender.com",
+    github: "https://github.com/MgMorshed123/Food-Hub-Client-",
+    server: "https://github.com/MgMorshed123/Food-HubServer",
+  },
+  {
+    title: "Code Academy",
+    desc: "Code Academy is a sleek and modern e-learning platform designed to enhance the online learning experience. Users can effortlessly browse through a variety of courses, toggle between light and dark themes for a personalized interface, and download course materials in PDF format for offline access. The platform also offers seamless login options via GitHub and Google, making it easy and secure for learners to get started. With its intuitive design and essential features, Code Academy provides a user-friendly and accessible solution for anyone looking to expand their knowledge and skills.",
+    image: imag4,
+    live: true,
+    technologies: [
+      "React",
+      "React Router DOM",
+      "Tailwind css",
+      "Firebase",
+      "AOS Animation library",
+      "React-to-PDF",
+      "Node",
+      "Express",
+      "MongoDb",
+      "Jwt",
+    ],
+    link: "https://code-academy-client.web.app",
+    github: "https://github.com/MgMorshed123/CodeAcademy-Client",
+    server: "https://github.com/MgMorshed123/CodeAcademy-server",
+  },
+];
 
 const SkillInfo = [
-    {
-        title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
-        ]
-    },
-    {
-        title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
-    },
-    {
-        title: "Languages",
-        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
-    },
-    {
-        title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
-    }
-]
-const socialLinks = [
-    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
-    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
-    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
-    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
-    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
-];
+  {
+    title: "Frontend",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "SHADCN UI",
+      "Redux",
+      "Zustand",
+      "React Router",
 
+      "Tailwind CSS",
+      "Framer Motion",
+      "Next JS",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "SQL",
+      "Prisma",
+      "Cloudinary",
+      "Multer",
+    ],
+  },
+  {
+    title: "Languages",
+    skills: ["C++", "JavaScript", "TypeScript"],
+  },
+  {
+    title: "Tools",
+    skills: ["Github", "VS Code", "Postman"],
+  },
+];
+const socialLinks = [
+  { link: "https://github.com/MgMorshed123", icon: IconBrandGithub },
+  {
+    link: "https://www.linkedin.com/in/golam-morshed-25a422281/",
+    icon: IconBrandLinkedin,
+  },
+];
 
 const ExperienceInfo = [
-    {
-        role: "Specialist Programmer",
-        company: "Infosys",
-        date: "Oct 2023 - Present",
-        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    },
-    {
-        role: "System Engineer",
-        company: "Infosys",
-        date: "Nov 2022 - Sep 2023",
-        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
-    }
-]
-const Slugs = [
-    "typescript",
-    "spring",
-    "javascript",
-    "dart",
-    "java",
-    "react",
-    "angular",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "springboot",
-    "mongodb",
-    "selenium",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "mysql",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
-    "figma",
+  {
+    role: "Freelance Developer",
+    company: "Self Employed",
+    date: "Oct 2023 - Present",
+    desc: "I am a freelance programmer specializing in full-stack web development. I create dynamic and responsive frontend and backend solutions using cutting-edge technologies like Node.js, Express.js, MongoDB, Tailwind CSS, and ShadCN. My expertise includes building e-commerce websites, restaurant websites, and custom web applications tailored to your business needs. With a focus on performance, user experience, and scalability, I deliver high-quality, reliable solutions that help your business thrive online. Let's collaborate to bring your ideas to life",
+    skills: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React JS",
+      "Node JS",
+      "SQL",
+      "MongoDB",
+      "Prisma",
+      "Microservices",
+    ],
+  },
+  {
+    role: "Frondend Developer  Internship",
+    company: " Lincoln University College ",
+    date: " Sep 2023- Nov 2023",
+    desc: "During my internship as a Frontend Developer at Lincoln University College from September 2023 to December 2023, I worked closely with a team to design and develop responsive, user-friendly web interfaces. My primary responsibilities included creating and optimizing web pages using modern frontend technologies such as HTML, CSS, and JavaScript, while ensuring seamless cross-browser compatibility. I implemented interactive features to enhance user experience and collaborated with the backend team to integrate APIs effectively. Additionally, I participated in code reviews to maintain code quality and utilized version control systems like Git for efficient project management. This experience allowed me to sharpen my technical skills, improve problem-solving abilities, and gain hands-on experience in delivering high-quality web solutions.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React JS",
+      "Node JS",
+      "SQL",
+      "MongoDB",
+      "Prisma",
+      "Microservices",
+    ],
+  },
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
+const Slugs = [
+  "typescript",
+  "react",
+  "javascript",
+  "redux",
+  "zustand",
+  "tailwindcss",
+  "schadCn",
+  "html5",
+  "css3",
+  "node",
+  "express",
+  "node",
+  "mongodb",
+  "prisma",
+  "sql",
+  "github",
+  "microservices",
+];
+export { Info, ProjectInfo, socialLinks, SkillInfo, ExperienceInfo, Slugs };

@@ -7,7 +7,7 @@ const firebaseConfig = {
   storageBucket: "portfolio-3d62f.appspot.com",
   messagingSenderId: "174398431968",
   appId: "1:174398431968:web:ba76399a67746f87776685",
-  measurementId: "G-J9L99MMQC0"
+  measurementId: "G-J9L99MMQC0",
 };
 
 const app = initializeApp(firebaseConfig);
